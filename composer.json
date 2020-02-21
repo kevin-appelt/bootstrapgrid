@@ -1,0 +1,37 @@
+{
+	"name": "kevin-appelt/bootstrapgrid",
+	"description": "Bootstrap 4 based grids",
+	"keywords": [
+		"typo3",
+		"grid",
+		"bootstrap"
+	],
+	"homepage": "https://www.kevin-appelt.de",
+	"authors": [
+		{
+			"name": "Kevin Appelt",
+			"email": "typo3@kevin-appelt.de",
+			"homepage": "https://www.kevin-appelt.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "typo3@kevin-appelt.de",
+		"source": "https://github.com/kevin-appelt/bootstrapgrid",
+		"issues": "https://github.com/kevin-appelt/bootstrapgrid/issues",
+		"docs": "https://github.com/kevin-appelt/bootstrapgrid/blob/master/README.md"
+	},
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"type": "typo3-cms-extension",
+	"version": "0.1.0",
+	"require": {
+		"typo3/minimal": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"K10\\Bootstrapgrid\\": "Classes/"
+		}
+	}
+}

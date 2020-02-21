@@ -1,0 +1,5 @@
+@import 'EXT:bootstrapgrid/Configuration/TsConfig/Page/ContentElement/*.tsconfig'
+
+mod.wizards.newContentElement.wizardItems {
+  columns.header = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_group.columns
+}

@@ -1,0 +1,31 @@
+mod.web_layout.BackendLayouts {
+  5050 {
+    title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.layout.5050
+    icon = EXT:bootstrapgrid/Resources/Public/Icons/content-bootstrapgrid-2columns-5050.svg
+    content_grid = 1
+    allowed_content_types = bootstrapgrid_2columns
+    config {
+      backend_layout {
+        colCount = 12
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/locallang_be.xlf:column.1
+                colPos = 0
+                colspan = 6
+              }
+
+              2 {
+                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/locallang_be.xlf:column.2
+                colPos = 1
+                colspan = 6
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

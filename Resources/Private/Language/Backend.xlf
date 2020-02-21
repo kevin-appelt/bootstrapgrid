@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">>
+	<file t3:id="1582321952" source-language="en" datatype="plaintext" original="messages" date="2020-02-21T21:51:42Z"
+		  product-name="bootstrapgrid">
+		<header/>
+		<body>
+			<trans-unit id="content_group.columns" xml:space="preserve">
+				<source>Columns</source>
+			</trans-unit>
+
+			<trans-unit id="content_element.2columns.title" xml:space="preserve">
+				<source>2 columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.2columns.description" xml:space="preserve">
+				<source>This element provides two columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.2columns.layout.5050" xml:space="preserve">
+				<source>50% | 50%</source>
+			</trans-unit>
+			<trans-unit id="content_element.2columns.layout.6733" xml:space="preserve">
+				<source>67% | 33%</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

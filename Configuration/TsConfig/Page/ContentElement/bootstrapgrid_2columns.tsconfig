@@ -1,0 +1,15 @@
+mod.wizards.newContentElement.wizardItems.columns {
+  elements {
+    bootstrapgrid_2columns {
+      iconIdentifier = content-bootstrapgrid-2columns
+      title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.title
+      description = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.description
+      tt_content_defValues {
+        CType = bootstrapgrid_2columns
+      }
+    }
+  }
+  show := addToList(bootstrapgrid_2columns)
+}
+
+@import 'EXT:bootstrapgrid/Configuration/TsConfig/Page/BackendLayouts/bootstrapgrid_2columns/*.tsconfig'

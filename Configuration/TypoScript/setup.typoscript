@@ -1,0 +1,26 @@
+lib.bootstrapgrid >
+lib.bootstrapgrid = FLUIDTEMPLATE
+lib.bootstrapgrid {
+  templateName = Default
+  templateRootPaths {
+    0 = EXT:bootstrapgrid/Resources/Private/Templates/
+    10 = {$styles.bootstrapgrid.templateRootPath}
+  }
+
+  partialRootPaths {
+    0 = EXT:bootstrapgrid/Resources/Private/Partials/
+    10 = {$styles.bootstrapgrid.partialRootPath}
+  }
+
+  layoutRootPaths {
+    0 = EXT:bootstrapgrid/Resources/Private/Layouts/
+    10 = {$styles.bootstrapgrid.layoutRootPath}
+  }
+}
+
+tt_content {
+  bootstrapgrid_2columns =< lib.bootstrapgrid
+  bootstrapgrid_2columns {
+    templateName = 2columns
+  }
+}
