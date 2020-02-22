@@ -1,0 +1,30 @@
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+
+<f:spaceless>
+    <f:switch expression="{data.layout}">
+        <f:case value="1">
+            <f:variable name="background" value="bg-white"/>
+        </f:case>
+        <f:case value="2">
+            <f:variable name="background" value="bg-light"/>
+        </f:case>
+        <f:case value="3">
+            <f:variable name="background" value="bg-dark"/>
+        </f:case>
+        <f:defaultCase>
+            <f:variable name="background" value="bg-transparent"/>
+        </f:defaultCase>
+    </f:switch>
+    <section class="ce-grid {background} {data.space_before_class} {data.space_after_class}">
+        <a class="link-to-element" id="c{data.uid}"></a>
+        <f:if condition="{data._LOCALIZED_UID}">
+            <a class="link-to-element" id="c{data._LOCALIZED_UID}"></a>
+        </f:if>
+        <div class="{data.frame_class}">
+            <f:render partial="Header/All" arguments="{_all}"/>
+            <f:render section="Content" arguments="{_all}"/>
+        </div>
+    </section>
+</f:spaceless>
+
+</html>
