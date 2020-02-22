@@ -12,13 +12,13 @@ mod.web_layout.BackendLayouts {
           1 {
             columns {
               1 {
-                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/locallang_be.xlf:column.1
+                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:column.1
                 colPos = 0
                 colspan = 6
               }
 
               2 {
-                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/locallang_be.xlf:column.2
+                name = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:column.2
                 colPos = 1
                 colspan = 6
               }

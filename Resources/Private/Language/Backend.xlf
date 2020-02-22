@@ -8,6 +8,32 @@
 				<source>Columns</source>
 			</trans-unit>
 
+			<trans-unit id="column.1" xml:space="preserve">
+				<source>1st column</source>
+			</trans-unit>
+			<trans-unit id="column.2" xml:space="preserve">
+				<source>2nd column</source>
+			</trans-unit>
+			<trans-unit id="column.3" xml:space="preserve">
+				<source>3rd column</source>
+			</trans-unit>
+			<trans-unit id="column.4" xml:space="preserve">
+				<source>4th column</source>
+			</trans-unit>
+
+			<trans-unit id="content_element.1column.title" xml:space="preserve">
+				<source>1 column</source>
+			</trans-unit>
+			<trans-unit id="content_element.1column.description" xml:space="preserve">
+				<source>This element provides one columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.1column.layout.100" xml:space="preserve">
+				<source>100%</source>
+			</trans-unit>
+			<trans-unit id="content_element.1column.layout.75" xml:space="preserve">
+				<source>75%</source>
+			</trans-unit>
+
 			<trans-unit id="content_element.2columns.title" xml:space="preserve">
 				<source>2 columns</source>
 			</trans-unit>
@@ -19,6 +45,32 @@
 			</trans-unit>
 			<trans-unit id="content_element.2columns.layout.6733" xml:space="preserve">
 				<source>67% | 33%</source>
+			</trans-unit>
+			<trans-unit id="content_element.2columns.layout.3367" xml:space="preserve">
+				<source>33% | 67%</source>
+			</trans-unit>
+
+			<trans-unit id="content_element.3columns.title" xml:space="preserve">
+				<source>3 columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.3columns.description" xml:space="preserve">
+				<source>This element provides three columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.3columns.layout.333333" xml:space="preserve">
+				<source>33% | 33% | 33%</source>
+			</trans-unit>
+			<trans-unit id="content_element.3columns.layout.255025" xml:space="preserve">
+				<source>25% | 50% | 25%</source>
+			</trans-unit>
+
+			<trans-unit id="content_element.4columns.title" xml:space="preserve">
+				<source>4 columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.4columns.description" xml:space="preserve">
+				<source>This element provides four columns</source>
+			</trans-unit>
+			<trans-unit id="content_element.4columns.layout.25252525" xml:space="preserve">
+				<source>25% | 25% | 25% | 25%</source>
 			</trans-unit>
 		</body>
 	</file>

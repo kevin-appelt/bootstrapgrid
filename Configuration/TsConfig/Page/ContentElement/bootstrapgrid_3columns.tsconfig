@@ -1,0 +1,15 @@
+mod.wizards.newContentElement.wizardItems.columns {
+  elements {
+    bootstrapgrid_3columns {
+      iconIdentifier = content-bootstrapgrid-3columns
+      title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.3columns.title
+      description = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.3columns.description
+      tt_content_defValues {
+        CType = bootstrapgrid_3columns
+      }
+    }
+  }
+  show := addToList(bootstrapgrid_3columns)
+}
+
+@import 'EXT:bootstrapgrid/Configuration/TsConfig/Page/BackendLayouts/bootstrapgrid_3columns/*.tsconfig'

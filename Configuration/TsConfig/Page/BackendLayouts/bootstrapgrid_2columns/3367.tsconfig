@@ -1,7 +1,7 @@
 mod.web_layout.BackendLayouts {
-  6733 {
-    title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.layout.6733
-    icon = EXT:bootstrapgrid/Resources/Public/Icons/content-bootstrapgrid-2columns-6733.svg
+  3367 {
+    title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.layout.3367
+    icon = EXT:bootstrapgrid/Resources/Public/Icons/content-bootstrapgrid-2columns-3367.svg
     content_grid = 1
     allowed_content_types = bootstrapgrid_2columns
     config {
@@ -14,13 +14,13 @@ mod.web_layout.BackendLayouts {
               1 {
                 name = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:column.1
                 colPos = 0
-                colspan = 8
+                colspan = 4
               }
 
               2 {
                 name = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:column.2
                 colPos = 1
-                colspan = 4
+                colspan = 8
               }
             }
           }

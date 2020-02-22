@@ -17,9 +17,17 @@ TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
 );
 
 $icons = [
+    'content-bootstrapgrid-1column',
+    'content-bootstrapgrid-1column-100',
+    'content-bootstrapgrid-1column-75',
     'content-bootstrapgrid-2columns',
     'content-bootstrapgrid-2columns-5050',
     'content-bootstrapgrid-2columns-6733',
+    'content-bootstrapgrid-3columns',
+    'content-bootstrapgrid-3columns-255025',
+    'content-bootstrapgrid-3columns-333333',
+    'content-bootstrapgrid-4columns',
+    'content-bootstrapgrid-4columns-25252525',
 ];
 $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 foreach ($icons as $icon) {

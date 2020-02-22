@@ -16,11 +16,34 @@ lib.bootstrapgrid {
     0 = EXT:bootstrapgrid/Resources/Private/Layouts/
     10 = {$styles.bootstrapgrid.layoutRootPath}
   }
+
+  dataProcessing {
+    10 = TYPO3\CMS\Frontend\DataProcessing\SubContentProcessor
+    10 {
+      contentAs = subContent
+      gridAs = grid
+    }
+  }
 }
 
 tt_content {
+  bootstrapgrid_1column =< lib.bootstrapgrid
+  bootstrapgrid_1column {
+    templateName = 1column
+  }
+
   bootstrapgrid_2columns =< lib.bootstrapgrid
   bootstrapgrid_2columns {
     templateName = 2columns
+  }
+
+  bootstrapgrid_3columns =< lib.bootstrapgrid
+  bootstrapgrid_3columns {
+    templateName = 3columns
+  }
+
+  bootstrapgrid_4columns =< lib.bootstrapgrid
+  bootstrapgrid_4columns {
+    templateName = 4columns
   }
 }

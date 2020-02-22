@@ -6,6 +6,7 @@
 	.background{fill:#fff;stroke:#aaa;stroke-width:2;}
 </style>
     <rect class="background" x="0" y="0" width="32" height="32"/>
-    <rect class="column" x="4" y="4" width="11" height="24"/>
-    <rect class="column" x="17" y="4" width="11" height="24"/>
+    <rect class="column" x="4" y="4" width="7" height="24"/>
+    <rect class="column" x="13" y="4" width="7" height="24"/>
+    <rect class="column" x="22" y="4" width="7" height="24"/>
 </svg>
