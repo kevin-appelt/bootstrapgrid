@@ -3,3 +3,107 @@
 mod.wizards.newContentElement.wizardItems {
   columns.header = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_group.columns
 }
+
+TCEFORM {
+  tt_content {
+    date {
+      types {
+        bootstrapgrid_1column.disabled = 1
+        bootstrapgrid_2columns.disabled = 1
+        bootstrapgrid_3columns.disabled = 1
+        bootstrapgrid_4columns.disabled = 1
+      }
+    }
+
+    /**
+    * @todo: Find out how to disable the NULL-value items
+    */
+    content_grid {
+      disableNoMatchingValueElement = 1
+      types {
+        bootstrapgrid_1column {
+          removeItems = 0
+        }
+
+        bootstrapgrid_2columns < .bootstrapgrid_1column
+        bootstrapgrid_3columns < .bootstrapgrid_1column
+        bootstrapgrid_4columns < .bootstrapgrid_1column
+      }
+    }
+
+    space_before_class {
+      disableNoMatchingValueElement = 1
+      types {
+        bootstrapgrid_1column {
+          removeItems = extra-small,small,medium,large,extra-large
+          addItems {
+            pt-1 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.1
+            pt-2 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.2
+            pt-3 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.3
+            pt-4 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.4
+            pt-5 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.5
+          }
+        }
+
+        bootstrapgrid_2columns < .bootstrapgrid_1column
+        bootstrapgrid_3columns < .bootstrapgrid_1column
+        bootstrapgrid_4columns < .bootstrapgrid_1column
+      }
+    }
+
+    space_after_class {
+      disableNoMatchingValueElement = 1
+      types {
+        bootstrapgrid_1column {
+          removeItems = extra-small,small,medium,large,extra-large
+          addItems {
+            pb-1 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.1
+            pb-2 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.2
+            pb-3 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.3
+            pb-4 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.4
+            pb-5 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.space.5
+          }
+        }
+
+        bootstrapgrid_2columns < .bootstrapgrid_1column
+        bootstrapgrid_3columns < .bootstrapgrid_1column
+        bootstrapgrid_4columns < .bootstrapgrid_1column
+      }
+    }
+
+    frame_class {
+      disableNoMatchingValueElement = 1
+      types {
+        bootstrapgrid_1column {
+          removeItems = default,ruler-before,ruler-after,indent,indent-left,indent-right,none
+          addItems {
+            no-container = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.frame.no-container
+            container = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.frame.container
+            container-fluid = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.frame.container-fluid
+          }
+        }
+
+        bootstrapgrid_2columns < .bootstrapgrid_1column
+        bootstrapgrid_3columns < .bootstrapgrid_1column
+        bootstrapgrid_4columns < .bootstrapgrid_1column
+      }
+    }
+    layout {
+      disableNoMatchingValueElement = 1
+      types {
+        bootstrapgrid_1column {
+          altLabels {
+            0 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.layout.0
+            1 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.layout.1
+            2 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.layout.2
+            3 = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:tt_content.layout.3
+          }
+        }
+
+        bootstrapgrid_2columns < .bootstrapgrid_1column
+        bootstrapgrid_3columns < .bootstrapgrid_1column
+        bootstrapgrid_4columns < .bootstrapgrid_1column
+      }
+    }
+  }
+}

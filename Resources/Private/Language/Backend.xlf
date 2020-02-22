@@ -21,6 +21,43 @@
 				<source>4th column</source>
 			</trans-unit>
 
+			<trans-unit id="tt_content.space.1" xml:space="preserve">
+				<source>Extra small</source>
+			</trans-unit>
+			<trans-unit id="tt_content.space.2" xml:space="preserve">
+				<source>Small</source>
+			</trans-unit>
+			<trans-unit id="tt_content.space.3" xml:space="preserve">
+				<source>Medium</source>
+			</trans-unit>
+			<trans-unit id="tt_content.space.4" xml:space="preserve">
+				<source>Large</source>
+			</trans-unit>
+			<trans-unit id="tt_content.space.5" xml:space="preserve">
+				<source>Extra large</source>
+			</trans-unit>
+			<trans-unit id="tt_content.frame.no-container" xml:space="preserve">
+				<source>No container</source>
+			</trans-unit>
+			<trans-unit id="tt_content.frame.container" xml:space="preserve">
+				<source>Fixed-width container</source>
+			</trans-unit>
+			<trans-unit id="tt_content.frame.container-fluid" xml:space="preserve">
+				<source>Full-width container</source>
+			</trans-unit>
+			<trans-unit id="tt_content.layout.0" xml:space="preserve">
+				<source>Transparent background</source>
+			</trans-unit>
+			<trans-unit id="tt_content.layout.1" xml:space="preserve">
+				<source>White background</source>
+			</trans-unit>
+			<trans-unit id="tt_content.layout.2" xml:space="preserve">
+				<source>Light background</source>
+			</trans-unit>
+			<trans-unit id="tt_content.layout.3" xml:space="preserve">
+				<source>Dark background</source>
+			</trans-unit>
+
 			<trans-unit id="content_element.1column.title" xml:space="preserve">
 				<source>1 column</source>
 			</trans-unit>
