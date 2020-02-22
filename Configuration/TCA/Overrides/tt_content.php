@@ -39,6 +39,13 @@ $GLOBALS['TCA']['tt_content']['types']['bootstrapgrid_1column'] = [
     'showitem' => $basicGridSetup,
 ];
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content',
+    'content_grid',
+    'bootstrapgrid_1column',
+    'before:layout'
+);
+
 /**
  * 2 columns
  */
@@ -57,6 +64,13 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bootstrapgrid_2column
 $GLOBALS['TCA']['tt_content']['types']['bootstrapgrid_2columns'] = [
     'showitem' => $basicGridSetup,
 ];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content',
+    'content_grid',
+    'bootstrapgrid_2columns',
+    'before:layout'
+);
 
 /**
  * 3 columns
@@ -77,6 +91,13 @@ $GLOBALS['TCA']['tt_content']['types']['bootstrapgrid_3columns'] = [
     'showitem' => $basicGridSetup,
 ];
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content',
+    'content_grid',
+    'bootstrapgrid_3columns',
+    'before:layout'
+);
+
 /**
  * 4 columns
  */
@@ -95,3 +116,10 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['bootstrapgrid_4column
 $GLOBALS['TCA']['tt_content']['types']['bootstrapgrid_4columns'] = [
     'showitem' => $basicGridSetup,
 ];
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content',
+    'content_grid',
+    'bootstrapgrid_4columns',
+    'before:layout'
+);
