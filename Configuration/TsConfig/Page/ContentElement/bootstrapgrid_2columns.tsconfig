@@ -6,7 +6,7 @@ mod.wizards.newContentElement.wizardItems.columns {
       description = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.description
       tt_content_defValues {
         CType = bootstrapgrid_2columns
-        content_grid = pagets__5050
+        content_grid = pagets_content__5050
         space_before_class = pt-3
         space_after_class = pb-3
         frame_class = container
