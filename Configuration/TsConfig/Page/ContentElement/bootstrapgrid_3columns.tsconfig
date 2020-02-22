@@ -17,4 +17,4 @@ mod.wizards.newContentElement.wizardItems.columns {
   show := addToList(bootstrapgrid_3columns)
 }
 
-@import 'EXT:bootstrapgrid/Configuration/TsConfig/Page/BackendLayouts/bootstrapgrid_3columns/*.tsconfig'
+@import 'EXT:bootstrapgrid/Configuration/TsConfig/Page/ContentGrids/bootstrapgrid_3columns/*.tsconfig'

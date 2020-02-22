@@ -1,4 +1,4 @@
-mod.web_layout.BackendLayouts {
+mod.web_layout.ContentGrids {
   6733 {
     title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.2columns.layout.6733
     icon = EXT:bootstrapgrid/Resources/Public/Icons/content-bootstrapgrid-2columns-6733.svg
