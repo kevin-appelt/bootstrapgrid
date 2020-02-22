@@ -17,6 +17,10 @@ lib.bootstrapgrid {
     10 = {$styles.bootstrapgrid.layoutRootPath}
   }
 
+  settings {
+    defaultHeaderType = 2
+  }
+
   dataProcessing {
     10 = TYPO3\CMS\Frontend\DataProcessing\SubContentProcessor
     10 {
