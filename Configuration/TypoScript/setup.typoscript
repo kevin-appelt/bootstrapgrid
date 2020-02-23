@@ -18,7 +18,7 @@ lib.bootstrapgrid {
   }
 
   settings {
-    defaultHeaderType = 2
+    defaultGridHeaderType = 2
   }
 
   dataProcessing {
