@@ -15,22 +15,6 @@ TCEFORM {
       }
     }
 
-    /**
-    * @todo: Find out how to disable the NULL-value items
-    */
-    content_grid {
-      disableNoMatchingValueElement = 1
-      types {
-        bootstrapgrid_1column {
-          removeItems = 0
-        }
-
-        bootstrapgrid_2columns < .bootstrapgrid_1column
-        bootstrapgrid_3columns < .bootstrapgrid_1column
-        bootstrapgrid_4columns < .bootstrapgrid_1column
-      }
-    }
-
     space_before_class {
       disableNoMatchingValueElement = 1
       types {
