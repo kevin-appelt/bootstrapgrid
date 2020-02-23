@@ -6,20 +6,7 @@
 </f:section>
 
 <f:section name="layout_25252525">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-3">
-            <f:format.raw>{subContent.0}</f:format.raw>
-        </div>
-        <div class="col-12 col-md-3">
-            <f:format.raw>{subContent.1}</f:format.raw>
-        </div>
-        <div class="col-12 col-md-3">
-            <f:format.raw>{subContent.2}</f:format.raw>
-        </div>
-        <div class="col-12 col-md-3">
-            <f:format.raw>{subContent.3}</f:format.raw>
-        </div>
-    </div>
+    <f:render partial="Columns" arguments="{_all}"/>
 </f:section>
 
 </html>

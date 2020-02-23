@@ -1,0 +1,13 @@
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<f:for each="{grid.rows}" as="row">
+    <div class="row justify-content-center">
+        <f:for each="{row.columns}" as="column">
+            <div class="col-12 col-md-{column.colSpan}">
+                <f:for each="{column.items}" as="item">
+                    <f:cObject typoscriptObjectPath="tt_content" data="{item.record}"/>
+                </f:for>
+            </div>
+        </f:for>
+    </div>
+</f:for>
+</html>
