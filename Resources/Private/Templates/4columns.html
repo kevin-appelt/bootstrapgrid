@@ -1,8 +1,25 @@
 <html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
 <f:layout name="Grid"/>
+
 <f:section name="Content">
+    <f:render section="layout_{grid.backendLayout.identifier}" arguments="{_all}"/>
+</f:section>
+
+<f:section name="layout_25252525">
     <div class="row justify-content-center">
-        hi
+        <div class="col-12 col-md-3">
+            <f:format.raw>{subContent.0}</f:format.raw>
+        </div>
+        <div class="col-12 col-md-3">
+            <f:format.raw>{subContent.1}</f:format.raw>
+        </div>
+        <div class="col-12 col-md-3">
+            <f:format.raw>{subContent.2}</f:format.raw>
+        </div>
+        <div class="col-12 col-md-3">
+            <f:format.raw>{subContent.3}</f:format.raw>
+        </div>
     </div>
 </f:section>
+
 </html>
