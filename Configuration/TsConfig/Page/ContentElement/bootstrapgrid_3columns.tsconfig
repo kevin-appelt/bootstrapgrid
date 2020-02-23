@@ -1,4 +1,4 @@
-mod.wizards.newContentElement.wizardItems.columns {
+mod.wizards.newContentElement.wizardItems.grids {
   elements {
     bootstrapgrid_3columns {
       iconIdentifier = content-bootstrapgrid-3columns
