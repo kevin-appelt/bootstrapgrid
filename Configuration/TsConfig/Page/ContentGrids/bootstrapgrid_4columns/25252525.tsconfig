@@ -3,7 +3,7 @@ mod.web_layout.ContentGrids {
     title = LLL:EXT:bootstrapgrid/Resources/Private/Language/Backend.xlf:content_element.4columns.layout.25252525
     icon = EXT:bootstrapgrid/Resources/Public/Icons/content-bootstrapgrid-4columns-25252525.svg
     content_grid = 1
-    allowed_content_types = bootstrapgrid_4columns
+    for_content_types = bootstrapgrid_4columns
     config {
       backend_layout {
         colCount = 12
